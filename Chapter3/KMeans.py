@@ -11,8 +11,6 @@ I tried to format it, but now it doesn't boot any more.
 Any ideas? Thanks.
 """
 
-print(new_post)
-
 english_stemmer = nltk.stem.SnowballStemmer('english')
 
 class StemmedTfidfVectorizer(TfidfVectorizer):
